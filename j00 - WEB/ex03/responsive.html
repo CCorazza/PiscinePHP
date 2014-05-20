@@ -1,0 +1,297 @@
+<!-- *********************************************************************** -->
+<!--                                                                         -->
+<!--                                                      :::      ::::::::  -->
+<!-- mendeleiev.html                                    :+:      :+:    :+:  -->
+<!--                                                  +:+ +:+         +:+    -->
+<!-- By: ccorazza <ccorazza@student.42.fr>          +#+  +:+       +#+       -->
+<!--                                              +#+#+#+#+#+   +#+          -->
+<!-- Created: 2014/03/31 17:07:38 by ccorazza          #+#    #+#            -->
+<!-- Updated: 2014/03/31 17:07:44 by ccorazza         ###   ########.fr      -->
+<!--                                                                         -->
+<!-- *********************************************************************** -->
+
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+	<meta charset=UTF-8? />
+	<TITLE>Mendeleiev "42" Table</TITLE>
+	<STYLE>
+	body 
+{
+color:white;
+background-color:black;
+background-image:url(http://www.fantom-xp.com/wallpapers/29/weapons_training_-_computer_background.jpg);
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-position:50% 50%;
+overflow:auto;
+}
+	H1
+{
+color:white;
+background-color: black;
+text-align: center;
+font:normal 15pt 'Courier New';
+}
+	th, td
+{
+text-align:center;
+color:white;
+font:normal 14pt 'Lucida Console';
+width:69px; height:69px; 
+}
+	sub, sup
+{
+
+font-size:60%;
+vertical-align:baseline;
+position:relative;
+line-height: 0; /* Zero out the line height so that it does not interfere with the positionning */
+}
+	sup
+{
+text-align:right;
+top: -0.5em;
+}
+	sub
+{
+text-align:left;
+bottom: -0.25em;
+}
+
+	.empty 
+{border:none;}
+	.spe
+{color:red;
+font-style:italic;
+text-align:center;
+border-style: double;
+border-color:white;
+background-color:#A9A9A9; 
+opacity:0.9;}
+	.label
+{
+text-align:center;
+font: 9pt 'Lucida Console'
+}
+
+	.nonmet
+{background-color:#616161 ;opacity:0.9;}
+	.alc
+{background-color:#E54028 ;opacity:0.9;}
+	.alcter
+{background-color:#D70060 ;opacity:0.9;}
+	.trans
+{background-color:#F18D05 ;opacity:0.95;}
+	.lanth
+{background-color:#D0D102 ;opacity:0.95;}
+	.acti
+{background-color:#61AE24 ;opacity:0.9;}
+	.poor
+{background-color:#A8CABA ;opacity:0.95;}
+	.oides
+{background-color:#67CDDC ;opacity:0.93;}
+	.halo
+{background-color:#01A4A4 ;opacity:0.93;}
+	.noble
+{background-color:#00A1CB ;opacity:0.93;}
+
+	.prim
+{border-style: solid; border-color:white;}
+	.desint
+{border-style: dotted; border-color:white;}
+	.synth
+{border-style: dashed; border-color:white;}
+
+	.gas
+	{color:#FF9F80;}
+	.liqu
+	{color:#D1E751;}
+
+	</STYLE>
+</HEAD>
+<BODY>
+	<H1 style="font:'Courier New'"> Mendeleiev Periodic Table - "42" Edition</H1>
+	<TABLE contenteditable="true" align="center">
+			<TH style="height:9%;">
+			</TH>
+			<TR>
+				<TD class="prim nonmet gas"> H <sup>  1</sup><br /><sub> 1,0079 </sub></TD>
+				<TD colspan="16" class=empty></TD>
+				<TD class="prim noble gas "> He<sup>  2</sup><br /><sub> 4,0026 </sub></TD>
+			</TR>
+			<TR>
+				<TD class="prim alc ">Li<sup>  3</sup><br /><sub> 6,941 </sub></TD>
+				<TD class="prim alcter ">Be<sup>  4</sup><br /><sub> 9,0121 </sub></TD>
+				<TD colspan="10" class=empty></TD>
+				<TD class="prim oides ">B<sup>  5</sup><br /><sub> 10,811 </sub></TD>
+				<TD class="prim nonmet ">C<sup>  6</sup><br /><sub> 12.0107 </sub></TD>
+				<TD class="prim nonmet gas">N<sup>  7</sup><br /><sub> 14,0067 </sub></TD>
+				<TD class="prim nonmet gas">O<sup>  8</sup><br /><sub> 15,9994 </sub></TD>
+				<TD class="prim halo gas">F<sup>  9</sup><br /><sub> 18,9984 </sub></TD>
+				<TD class="prim noble gas">Ne<sup>  10</sup><br /><sub> 20,1797 </sub></TD>
+			</TR>
+			<TR>
+				<TD class="prim alc ">Na<sup>  11</sup><br /><sub> 22,9897 </sub></TD>
+				<TD class="prim alcter ">Mg<sup>  12</sup><br /><sub> 24,3050 </sub></TD>
+				<TD colspan="10" class=empty></TD>
+				<TD class="prim poor ">Al<sup>  13</sup><br /><sub> 26,9815 </sub></TD>
+				<TD class="prim oides ">Si<sup>  14</sup><br /><sub> 28,0855 </sub></TD>
+				<TD class="prim nonmet ">P<sup>  15</sup><br /><sub> 30,9739 </sub></TD>
+				<TD class="prim nonmet ">S<sup>  16</sup><br /><sub> 32,066 </sub></TD>
+				<TD class="prim halo gas ">Cl<sup>  17</sup><br /><sub> 35,4527 </sub></TD>
+				<TD class="prim noble gas ">Ar<sup>  18</sup><br /><sub> 39,948 </sub></TD>
+			</TR>
+			<TR>
+				<TD class="prim alc prim">K<sup>  19</sup><br /><sub> 39,0983 </sub></TD>
+				<TD class="prim alcter prim">Ca<sup>  20</sup><br /><sub> 40,078 </sub></TD>
+				<TD class="prim trans ">Sc<sup>  21</sup><br /><sub> 44,9559 </sub></TD>
+				<TD class="prim trans ">Ti<sup>  22</sup><br /><sub> 47,867 </sub></TD>
+				<TD class="prim trans ">V<sup>  23</sup><br /><sub> 50,9415 </sub></TD>
+				<TD class="prim trans ">Cr<sup>  24</sup><br /><sub> 51,9961 </sub></TD>
+				<TD class="prim trans ">Mn<sup>  25</sup><br /><sub> 54,9380 </sub></TD>
+				<TD class="prim trans ">Fe<sup>  26</sup><br /><sub> 55,845 </sub></TD>
+				<TD class="prim trans ">Co<sup>  27</sup><br /><sub> 58,9331 </sub></TD>
+				<TD class="prim trans ">Ni<sup>  28</sup><br /><sub> 58,6934 </sub></TD>
+				<TD class="prim trans ">Cu<sup>  29</sup><br /><sub> 63,546 </sub></TD>
+				<TD class="prim trans ">Zn<sup>  30</sup><br /><sub> 65,39 </sub></TD>
+				<TD class="prim poor ">Ga<sup>  31</sup><br /><sub> 69,729 </sub></TD>
+				<TD class="prim oides ">Ge<sup>  32</sup><br /><sub> 72,61 </sub></TD>
+				<TD class="prim oides ">As<sup>  33</sup><br /><sub> 74,9216 </sub></TD>
+				<TD class="prim nonmet ">Se<sup>  34</sup><br /><sub> 78,96 </sub></TD>
+				<TD class="prim halo liqu ">Br<sup>  35</sup><br /><sub> 79,904 </sub></TD>
+				<TD class="prim noble gas ">Kr<sup>  36</sup><br /><sub> 83,80 </sub></TD>
+			</TR>
+			<TR>
+				<TD class="prim alc ">Rb<sup>  37</sup><br /><sub> 85,4678 </sub></TD>
+				<TD class="prim alcter ">Sr<sup>  38</sup><br /><sub> 87,62 </sub></TD>
+				<TD class="prim trans ">Y<sup>  39</sup><br /><sub> 88,9058 </sub></TD>
+				<TD class="prim trans ">Zr<sup>  40</sup><br /><sub> 91,224 </sub></TD>
+				<TD class="prim trans ">Nb<sup>  41</sup><br /><sub> 92,9063 </sub></TD>
+				<TD class="prim trans ">Mo<sup>  42</sup><br /><sub> 95,94 </sub></TD>
+				<TD class="prim trans ">Tc<sup>  43</sup><br /><sub> 97,9082 </sub></TD>
+				<TD class="prim trans ">Ru<sup>  44</sup><br /><sub> 107,07 </sub></TD>
+				<TD class="prim trans ">Rh<sup>  45</sup><br /><sub> 102,9055 </sub></TD>
+				<TD class="prim trans ">Pd<sup>  46</sup><br /><sub> 106,42 </sub></TD>
+				<TD class="prim trans ">Ag<sup>  47</sup><br /><sub> 107,8682 </sub></TD>
+				<TD class="prim trans ">Cd<sup>  48</sup><br /><sub> 112,411 </sub></TD>
+				<TD class="prim poor ">In<sup>  49</sup><br /><sub> 114,818 </sub></TD>
+				<TD class="prim poor ">Sn<sup>  50</sup><br /><sub> 118,710 </sub></TD>
+				<TD class="prim oides ">Sb<sup>  51</sup><br /><sub> 121,760 </sub></TD>
+				<TD class="prim oides ">Te<sup>  52</sup><br /><sub> 127,60 </sub></TD>
+				<TD class="prim halo ">I<sup>  53</sup><br /><sub> 126,9044 </sub></TD>
+				<TD class="prim noble ">Xe<sup>  54</sup><br /><sub> 131,29 </sub></TD>
+			</TR>
+			<TR>
+				<TD class="prim alc ">Cs<sup>  55</sup><br /><sub>132,9054</sub></TD>
+				<TD class="prim alcter ">Ba<sup>  56</sup><br /><sub>137,327</sub></TD>
+				<TD class="spe" >See Below &#9660;</TD>
+				<TD class="prim trans ">Hf<sup>  72</sup><br /><sub>178,49</sub></TD>
+				<TD class="prim trans ">Ta<sup>  73</sup><br /><sub>180,9478</sub></TD>
+				<TD class="prim trans ">W<sup>  74</sup><br /><sub>183,84</sub></TD>
+				<TD class="prim trans ">Re<sup>  75</sup><br /><sub>186,207</sub></TD>
+				<TD class="prim trans ">Os<sup>  76</sup><br /><sub>190,23</sub></TD>
+				<TD class="prim trans ">Ir<sup>  77</sup><br /><sub>192,217</sub></TD>
+				<TD class="prim trans ">Pt<sup>  78</sup><br /><sub>195,084</sub></TD>
+				<TD class="prim trans ">Au<sup>  79</sup><br /><sub>196,9665</sub></TD>
+				<TD class="prim trans liqu">Hg<sup>  80</sup><br /><sub> 200,59 </sub></TD>
+				<TD class="prim poor ">TI<sup>  81</sup><br /><sub>204,3833</sub></TD>
+				<TD class="prim poor ">Pb<sup>  82</sup><br /><sub>207,2</sub></TD>
+				<TD class="prim poor ">Bi<sup>  83</sup><br /><sub>208,9804</sub></TD>
+				<TD class="desint oides ">Po<sup>  84</sup><br /><sub>[208,9824]</sub></TD>
+				<TD class="desint halo ">At<sup>  85</sup><br /><sub>[209,9871]</sub></TD>
+				<TD class="desint noble gas">Rn<sup>  86</sup><br /><sub> [222,0176] </sub></TD>
+			</TR>
+			<TR>
+				<TD class="prim alc ">Fr<sup>  87</sup><br /><sub>[223,0197]</sub></TD>
+				<TD class="prim alcter ">Ra<sup>  88</sup><br /><sub>[226,0254]</sub></TD>
+				<TD class="spe" >See Below &#9660;&#9660;</TD>
+				<TD class="prim trans synth">Rf<sup>  104</sup><br /><sub>[263,1125]</sub></TD>
+				<TD class="prim trans synth">Db<sup>  105</sup><br /><sub>[262,1144]</sub></TD>
+				<TD class="prim trans synth">Sg<sup>  106</sup><br /><sub>[266,1219]</sub></TD>
+				<TD class="prim trans synth">Bh<sup>  107</sup><br /><sub>[264,1247]</sub></TD>
+				<TD class="prim trans synth">Hs<sup>  108</sup><br /><sub>[269,1341]</sub></TD>
+				<TD class="prim trans synth">Mt<sup>  109</sup><br /><sub>[268,1388]</sub></TD>
+				<TD class="prim trans synth">Ds<sup>  110</sup><br /><sub>[272,1463]</sub></TD>
+				<TD class="prim trans synth">Rg<sup>  111</sup><br /><sub>[272,1535]</sub></TD>
+				<TD class="trans gas synth">Cn<sup>  112</sup><br /><sub> [277] </sub></TD>
+				<TD class="prim poor synth">Uut<sup>  113</sup><br /><sub> [284] </sub></TD>
+				<TD class="prim poor synth">FI<sup>  114</sup><br /><sub> [284] </sub></TD>
+				<TD class="prim poor synth">Uup<sup>  115</sup><br /><sub> [289] </sub></TD>
+				<TD class="prim poor synth">Lv<sup>  116</sup><br /><sub> [288] </sub></TD>
+				<TD class="prim halo synth">Uus<sup>  117</sup><br /><sub> [292] </sub></TD>
+				<TD class="prim noble synth">Uuo<sup>  118</sup><br /><sub> [294] </sub></TD>
+			</TR>
+			<TR>
+				<TD style="height:21px"></TD>
+			<TR>
+				<TD colspan="2" class=empty></TD>
+				<TD>&#9660;</TD>
+				<TD class="prim lanth ">La<sup>  57</sup><br /><sub> 138,9054 </sub></TD>
+				<TD class="prim lanth ">Ce<sup>  58</sup><br /><sub> 140,116 </sub></TD>
+				<TD class="prim lanth ">Pr<sup>  59</sup><br /><sub> 140,9076 </sub></TD>
+				<TD class="prim lanth ">Nd<sup>  60</sup><br /><sub> 144,242 </sub></TD>
+				<TD class="prim lanth desint">Pm<sup>  61</sup><br /><sub>[144,9127]</sub></TD>
+				<TD class="prim lanth ">Sm<sup>  62</sup><br /><sub> 150,36 </sub></TD>
+				<TD class="prim lanth ">Eu<sup>  63</sup><br /><sub> 151,964 </sub></TD>
+				<TD class="prim lanth ">Gd<sup>  64</sup><br /><sub> 157,25 </sub></TD>
+				<TD class="prim lanth ">Tb<sup>  65</sup><br /><sub> 158,9253 </sub></TD>
+				<TD class="prim lanth ">Dy<sup>  66</sup><br /><sub> 162,500 </sub></TD>
+				<TD class="prim lanth ">Ho<sup>  67</sup><br /><sub> 164,9303 </sub></TD>
+				<TD class="prim lanth ">Er<sup>  68</sup><br /><sub> 167,259 </sub></TD>
+				<TD class="prim lanth ">Tm<sup>  69</sup><br /><sub> 168,9642 </sub></TD>
+				<TD class="prim lanth ">Yb<sup>  70</sup><br /><sub> 173,04 </sub></TD>
+				<TD class="prim lanth ">Lu<sup>  71</sup><br /><sub> 174,967 </sub></TD>
+			</TR>
+			<TR>
+				<TD colspan="2" class=empty></TD>
+				<TD>&#9660; &#9660;</TD>
+				<TD class="prim acti desint">Ac<sup>  89</sup><br /><sub>[227,0277]</sub></TD>
+				<TD class="prim acti ">Th<sup>  90</sup><br /><sub> 232,0380 </sub></TD>
+				<TD class="prim acti ">Pa<sup>  91</sup><br /><sub> 231,0358 </sub></TD>
+				<TD class="prim acti ">U<sup>  92</sup><br /><sub> 231,0289 </sub></TD>
+				<TD class="prim acti desint">Np<sup>  93</sup><br /><sub>[237,0482]</sub></TD>
+				<TD class="prim acti ">Pu<sup>  94</sup><br /><sub>[244,0642]</sub></TD>
+				<TD class="prim acti synth">Am<sup>  95</sup><br /><sub>[243,0614]</sub></TD>
+				<TD class="prim acti synth">Cm<sup>  96</sup><br /><sub>[247,0703]</sub></TD>
+				<TD class="prim acti synth">Bk<sup>  97</sup><br /><sub>[247,0703]</sub></TD>
+				<TD class="prim acti synth">Cf<sup>  98</sup><br /><sub>[251,0796]</sub></TD>
+				<TD class="prim acti synth">Es<sup>  99</sup><br /><sub>[252,0830]</sub></TD>
+				<TD class="prim acti synth">Fm<sup>  100</sup><br /><sub>[257,0951]</sub></TD>
+				<TD class="prim acti synth">Md<sup>  101</sup><br /><sub>[258,098+4]</sub></TD>
+				<TD class="prim acti synth">No<sup>  102</sup><br /><sub>[259,1011]</sub></TD>
+				<TD class="prim acti synth">Lr<sup>  103</sup><br /><sub>[262,110]</sub></TD>
+			</TR>
+	</TABLE>
+	<div align="right">
+		<input type="button" value="Clear Changes">
+	</div>
+</BODY>
+<FOOTER>
+	<div align="center" vertical-align="bottom">
+	<IMG src="http://media0.giphy.com/media/IK1btD2DsZrj2/giphy.gif" style="border:2px solid yellow">
+	</IMG></div>
+	<div align="center">
+	<H1>Labels.</H1>
+	<TABLE>
+		<TD class="alc label">Alkali Metals</TD>
+		<TD class="alcter label">Alkaline Earth</TD>
+		<TD class="trans label">Transition Metal</TD>
+		<TD class="poor label">Basic Metal</TD>
+		<TD class="oides label">Semimetals</TD>
+		<TD class="nonmet label">Nonmetals</TD>
+		<TD class="halo label">Halogens</TD>
+		<TD class="noble label">Noble Gas</TD>
+		<TD class="lanth label">Lanthanides</TD>
+		<TD class="acti label">Actinides</TD>
+		<TD colspan="2" class=empty></TD>
+		<TD class="prim label"> Solid </TD>
+		<TD class="prim gas label">Gas</TD>
+		<TD class="prim liqu label">Liquid</TD>
+		<TD colspan="2" class=empty></TD>
+		<TD class="desint label">Disintegration Issued</TD>
+		<TD class="synth label" style="font:7px">Synthetically Prepared</TD>
+	</TABLE>
+	</div>
+</FOOTER>
+</HTML>

@@ -1,0 +1,91 @@
+	body 
+{
+color:white;
+background-color:black;
+background-image:url(http://www.fantom-xp.com/wallpapers/29/weapons_training_-_computer_background.jpg);
+background-attachment:fixed;
+background-repeat:no-repeat;
+background-position:50% 50%;
+overflow:auto;
+}
+	H1
+{
+color:white;
+background-color: black;
+text-align: center;
+font:normal 15pt 'Courier New';
+}
+	th, td
+{
+text-align:center;
+color:white;
+font:normal 14pt 'Lucida Console';
+width:69px; height:69px; 
+}
+	sub, sup
+{
+
+font-size:60%;
+vertical-align:baseline;
+position:relative;
+line-height: 0; /* Zero out the line height so that it does not interfere with the positionning */
+}
+	sup
+{
+text-align:right;
+top: -0.5rem;
+}
+	sub
+{
+text-align:left;
+bottom: -0.25rem;
+}
+
+	.empty 
+{border:none;}
+	.spe
+{color:red;
+font-style:italic;
+text-align:center;
+border-style: double;
+border-color:white;
+background-color:#A9A9A9; 
+opacity:0.9;}
+	.label
+{
+text-align:center;
+font: 9pt 'Lucida Console'
+}
+
+	.nonmet
+{background-color:#616161 ;opacity:0.9;}
+	.alc
+{background-color:#E54028 ;opacity:0.9;}
+	.alcter
+{background-color:#D70060 ;opacity:0.9;}
+	.trans
+{background-color:#FFFFFF ;opacity:0.95;}
+	.lanth
+{background-color:#D0D102 ;opacity:0.95;}
+	.acti
+{background-color:#61AE24 ;opacity:0.9;}
+	.poor
+{background-color:#A8CABA ;opacity:0.95;}
+	.oides
+{background-color:#67CDDC ;opacity:0.93;}
+	.halo
+{background-color:#01A4A4 ;opacity:0.93;}
+	.noble
+{background-color:#00A1CB ;opacity:0.93;}
+
+	.prim
+{border-style: solid; border-color:white;}
+	.desint
+{border-style: dotted; border-color:white;}
+	.synth
+{border-style: dashed; border-color:white;}
+
+	.gas
+	{color:#FF9F80;}
+	.liqu
+	{color:#D1E751;}

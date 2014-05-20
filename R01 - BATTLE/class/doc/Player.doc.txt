@@ -1,0 +1,12 @@
+<- Player Class ----------------------------------------------------------------------
+This class handle the management of the information of a player.
+
+This class provides many public attributes:
+name: the name of the player.
+race: the race of the player.
+id: the id of the player during the game.
+avatr: the url of the img of the player.
+fleet: the ships associated to the player.
+
+This class provides 2 getters for attributes name and img.
+---------------------------------------------------------------------- Player ->

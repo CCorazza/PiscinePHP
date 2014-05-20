@@ -1,0 +1,93 @@
+<html>
+	<head>
+	<title>My beautiful Balloon</title>
+		<script language="javascript" type="text/javascript">
+//
+		var flag_color = 1;
+		var height = 200;
+		var width = 200;
+		var bdrd = 100;
+
+		function inflate(){
+			bg();
+			height += 10;
+			width += 10;
+			bdrd += 5;
+			b_div.style.height = height;
+			b_div.style.width = width;
+			b_div.style.borderRadius = bdrd;
+			if (width == 420)
+			{
+				var_text = document.createTextNode('POP ! ');
+				b_div.appendChild(var_text);
+				setTimeout("location.reload(true);", 150);
+			}
+		}
+
+		function bg(){
+			if (flag_color == 1){
+				b_div.setAttribute('style', 'background : blue;')
+				flag_color = 2;
+			}
+			else if (flag_color == 2){
+				b_div.setAttribute('style', 'background : green;')
+				flag_color = 3;
+			}
+			else if (flag_color == 3){
+				b_div.setAttribute('style', 'background : red;')
+				flag_color = 1;
+			}
+		}
+
+		function mini(){
+			
+			rbg();
+			b_div.style.height = height - 5;
+			b_div.style.width = width - 5;
+			b_div.style.borderRadius = bdrd - 2.5;
+			if (width == 420)
+			{
+				var_text = document.createTextNode('POP ! ');
+				b_div.appendChild(var_text);
+				setTimeout("location.reload(true);", 150);
+			}
+		}
+				function rbg(){
+			if (flag_color == 1){
+				b_div.setAttribute('style', 'background : red;')
+				flag_color = 2;
+			}
+			else if (flag_color == 2){
+				b_div.setAttribute('style', 'background : green;')
+				flag_color = 3;
+			}
+			else if (flag_color == 3){
+				b_div.setAttribute('style', 'background : blue;')
+				flag_color = 1;
+			}
+		}
+
+		</script>
+		<style type="text/css">
+				#balloon
+			{
+				min-width: 200px; min-height: 200px;
+				width: 200px; height: 200px;
+				border-radius: 100px;
+			}
+			div{
+				width : 600px;
+				height : 600px;
+				margin:auto;
+				text-align: center;
+			}
+		</style>
+	</head>
+<body>
+	<p><div id='balloon' onclick='inflate()' onmouseout="mini()"></div></p>
+	<script>
+		var b_div = document.getElementById('balloon');
+		b_div.setAttribute('style', 'background : red; ')
+	</script>
+</body>
+</html>

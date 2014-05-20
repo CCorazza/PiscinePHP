@@ -1,0 +1,10 @@
+<- Ship Class ----------------------------------------------------------------------
+
+This class provides 3 public attributs:
+namee: the name of the ship.
+x / y: the coordonates of the ship.
+
+This class provide one function to move the ship according the direction passed as argument.
+void moveShip ($dir) : the parameter must be (Haut/Bas/Gauche/Droite)
+
+---------------------------------------------------------------------------- Ship ->

@@ -1,0 +1,22 @@
+body {
+	background-color: white;
+}
+
+table {
+	background-image: url('../img/background.jpg');
+}
+
+tr{
+	background-color: rgba(255,255,255,.3);
+}
+td {
+	width: 10px;
+	height: 10px;
+}
+
+#test {
+	background-color: red;
+}
+#test2 {
+	background-color: blue;
+}

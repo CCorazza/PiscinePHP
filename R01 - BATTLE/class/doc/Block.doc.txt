@@ -1,0 +1,5 @@
+<-- Block Class ----------------------
+This Class has 2 public attributs :
+_ship : The reference to the ship who occupies this cell;
+_sprite : The sprite needed to display the ship;
+------------------------------------->

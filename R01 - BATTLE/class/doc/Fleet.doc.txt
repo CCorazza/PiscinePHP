@@ -1,0 +1,8 @@
+<- Fleet Class ----------------------------------------------------------------
+This Class provides one public attribute :
+ships : an array who contains as many objects from the class ship as needed.
+
+THis Class provides 2 public methods ;
+string doc () : return this current dicumentation.
+void add_chip ( Ship $ship) : add a ship to the current fleet;
+----------------------------------------------------------------------- Fleet ->

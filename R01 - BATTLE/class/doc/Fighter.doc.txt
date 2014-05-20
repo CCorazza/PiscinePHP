@@ -1,0 +1,11 @@
+<-- Fighter Class -----------------------
+This class has 3 public attirbutes:
+width / height : the dimension of one ship Fighter;
+pcoque : The resistance of the ship before being destructed, when pcoque reach 0.
+
+This class has 2 public methods :
+bool fireHit ($dir) : return True / False according to the direction used as parameter
+	and the position of the ship if the ship hit a target.
+	the $dir nuste be (Haut/Bas/Gauche/Droite)
+string doc () : return this documentation.
+------------------------------------------>

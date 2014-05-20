@@ -1,0 +1,54 @@
+a {
+text-decoration: none;
+text-align :center ;
+color : white;
+}
+
+body{
+background-image: url('../img/tile.jpg');
+background-repeat: repeat ;
+font:15px arial,sans-serif;
+font-variant: small-caps;
+}
+
+header{
+	background-color: #2B4263;
+	width : 100%;
+	text-align: center;
+	text-decoration: none;
+	color : white;
+}
+
+.container{
+	background-color: rgba(0, 0, 0, 0.12);
+	width: 420px;
+	margin: auto;
+	box-shadow: 1px 1px 1px #86AAAA;
+}
+
+.title{
+	color: white;
+	text-shadow: 1px 1px 3px #DCDCFF;
+	background-color: rgba(42, 42, 42, 0.12);
+	text-align: center;
+}
+
+.content{
+	padding-right: 24px;
+	text-align:right;
+}
+
+.success {
+	background-color: rgba(0, 0, 0, 0.24);
+	width: 420px;
+	margin: auto;
+	box-shadow: 1px 1px 1px #86AAAA;
+	text-align: center;
+}
+
+.submit{
+	background-color: rgba(42, 66, 99, 0.69);
+	border:none;
+	box-shadow: 1px 1px 1px #86AAAA;
+	color:white;
+}

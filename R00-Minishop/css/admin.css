@@ -1,0 +1,36 @@
+h1
+{
+font: italic 2.15em;
+font-variant:small-caps;
+text-align: center;
+background-color: #403C30;
+}
+
+body
+{
+background-color:#b0c4de;
+}
+
+
+.banner
+{
+color: #F0F0F0;
+background-color: #000000;
+text-align: right;
+}
+
+.class
+{
+background-color: #FFF000;
+font: 1.012em;
+font-variant:small-caps;
+text-align: center;
+}
+
+.connect
+{
+background-color: #FFF000;
+font: 1.012em;
+font-variant:small-caps;
+text-align: center;
+}

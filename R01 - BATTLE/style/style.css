@@ -1,0 +1,193 @@
+body {
+	background-image: url('../img/background.jpg');
+	color: white;
+	font-family: sans-serif;
+	font-size: 17px;
+}
+
+#action{
+	width: 250px;
+	border-radius: 5px;
+	background: rgba(255, 255, 255, .25);
+	display: inline-block;
+	max-height: 200px;
+}
+#consolelog{
+	padding-left: 30px;
+	overflow: auto;
+	min-height:200px;
+	max-height: 200px;
+	display: inline-block;
+	width: 70%;
+	border-radius: 5px;
+	background: rgba(255, 255, 255, .25);
+
+}
+
+#container{
+	max-height:200px;
+	margin-left: 12%;
+	margin-right: auto;
+}
+#login {
+	background: rgba(255, 255, 255, .5);
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	width: 400px;
+	vertical-align: middle;
+	height: auto;
+	padding: 30px;
+}
+
+.icon{
+	background: rgba(255, 255, 255, .7);
+	width: 42px;
+	height:42px;
+}
+
+#menu ul, #menu li{
+	display: block;
+	padding: 0px;
+	list-style : none;
+	vertical-align: bottom;
+}
+
+#menu{
+	width: 42px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+#menu a {
+	display : block;
+}
+#menu li:hover {
+	background: rgba(210, 210, 210, 1);
+	width :120%;
+	text-align: right;
+}
+
+#menu li {
+	display:hidden;
+	background: rgba(255, 255, 255, .25);
+}
+
+#content {
+	background-image: url(../img/background.jpg);
+	border-style: solid;
+	border-width: 2px;
+	border-color: green;
+	padding: 0px;
+	border-spacing: 0px;
+}
+
+.infos {
+	position: fixed;
+	width: 300;
+	height: 200;
+	overflow: auto;
+	bottom: 20;
+	left: 20px;
+	background-color: rgba(0, 0, 255, 0.75);
+}	
+.motherboard{
+	width :100%;
+	min-width :2100px;
+	border-spacing: 0;
+	border-style: none;
+	padding: 0;
+	display: inline-block;
+	text-align: center;
+	font-size: 1em;
+}
+#board {
+	margin-left: auto;
+	margin-right: auto;
+	border-spacing: 0;
+	width: 1500px;
+	height: 1000px;
+	background: rgba(255, 255, 255, 0.3);
+}
+.cellboard{
+	width: 9px;
+	box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.3);
+
+}
+.cellboard:hover{
+	background-color: green;
+}
+
+
+#ply1 {
+	margin-left: auto;
+	margin-right: auto;
+	padding: 12px;
+	width: 270px;
+	height: auto;
+	background: rgba(255, 0, 0, 0.3);
+	vertical-align: middle;
+	border-radius: 3px;
+}
+#ply1 h2{
+
+}
+
+#ply2 {
+	margin-left: auto;
+	margin-right: auto;
+	padding:12px;
+	width: 270px;
+	height: auto;
+	background: rgba(0, 0, 255, 0.3);
+	vertical-align: middle;
+	border-radius: 3px;
+}
+
+#pp {
+	font-size: 24px;
+}
+
+#test {
+	background-color: red;
+}
+#test2 {
+	background-color: blue;
+}
+
+.button{
+	background-color: rgba(42, 120, 99, 0.69);
+	border:none;
+	box-shadow: 1px 1px 1px #86AAAA;
+	color:white;
+	margin-right: 12px;
+}
+
+#cursor{
+	position: fixed;
+}
+
+.avatar{
+	max-width: 230px;
+	box-shadow: 1px 1px 3px white ;
+}
+
+.gaming{
+	box-shadow: 1px 1px 3px white ;
+	background-color: rgba(255, 255, 255, 0.3);
+	color: white;
+	text-align: right;
+}
+
+#home{
+	margin-left: 12%;
+	margin-right: 12%;
+	width: 76%;
+}
+#win{
+	margin-left: 22%;
+	margin-right: 22%;
+	width: 56%;
+	text-align: center;
+	font-size: 6em;
+}

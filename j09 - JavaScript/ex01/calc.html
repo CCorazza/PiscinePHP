@@ -1,0 +1,129 @@
+<html>
+<head>
+	<title>Deluxe Calculator</title>
+	<script language="javascript" type="text/javascript">
+	function display(){
+		var num1 = new Number(document.getElementById('input1').value);
+		var num2 = new Number(document.getElementById('input2').value);
+		var opp = document.getElementById("opp").value;
+		var Overall;
+		var string = num1 + ' ' + opp + ' ' + num2;
+
+		if (isInt(num1) && isInt(num2) && num1 >= 0 && num2 >= 0)
+		{
+			document.getElementById('operation').innerHTML = string;
+
+			if ( (opp == '/' || opp == '%') && num2 == '0' )
+			{
+				Overall = "IT\'S OVER 9000 !";
+				alert(Overall);
+				console.log(Overall);
+			} 
+			else 
+			{
+			Overall = eval(string);
+			alert(Overall);
+			console.log(Overall);
+			document.getElementById('result').innerHTML = Overall;
+			}
+		}
+		else
+		{
+			Overall = "Error :("
+			alert(Overall);
+			console.log(Overall);
+			document.getElementById('result').innerHTML = Overall;
+		}
+	}
+
+	function isInt(n)
+	{
+		return n % 1 === 0;
+	}
+	</script>
+	<style type="text/css">
+	html {
+		font: bold 14px Arial, sans-serif;
+		height: 100%;
+		background: white;
+		background: radial-gradient(circle, #C4DBD7 20%, #9FC2BC);
+		overflow: auto;
+		display : inline;
+		}
+	table{
+		width : 690px ;
+		height : 333px;
+		margin:auto;
+		box-shadow: 3px 3px 1px #86AAAA;
+		text-align:center;
+		}
+	footer{
+		vertical-align: bottom;
+		text-align: right;
+		}
+	th{
+		color: #2A2A2A;
+		}
+	#button, select
+	{
+		font: bold 18px Arial, sans-serif;
+		width: 48px;
+		height: 30px;
+		overflow: hidden;
+		background: #9FC2BC;
+		border: transparent;
+		text-align: center;
+	}
+	#button
+	{
+		font: bold 12px Arial, sans-serif;
+		box-shadow: 3px 3px 1px #86AAAA;
+	}
+	#id
+	{
+	color :#CF613E;
+	font: bold 14px Arial, sans-serif;
+	}
+
+	#input1, #input2
+	{
+	border:1px transparent;
+    height:16px;
+    margin:1px;
+    margin-right:2px;
+    padding:1px;
+    background: #FFCBBB;
+    box-shadow: 3px 3px 1px #86AAAA;
+	}
+	</style>
+</head>
+<body>
+	<table>
+	<th>Dis iz a Deluxe Calculator</th>
+		<tr><td id='id'> Your first Operand : <input type='text' id='input1'></td></tr>
+		</tr>
+		<tr>
+		<td><select id='opp'>
+				<option value="+">+</option>
+				<option value="-">-</option>
+				<option value="*">x</option>
+				<option value="/">&divide;</option>
+				<option value="%">%</option>
+		</select></td>
+		</tr>
+		<tr>
+		<td id='id'> Your other Operand : <input type='text' id='input2'></td></td>
+		<tr><td><input type=submit value='Try me' id='button' onClick='display()'></td></tr>
+		<tr><td id='id'> Here is your operation : </td></tr><td id='operation'></td></tr>
+		<tr><td id='id'> Here is your result : </td></tr><tr><td id='result'></td></tr>
+		</tr>
+		</table>
+		<footer><hr />
+		<a href='http://www.youtube.com/watch?v=dQw4w9WgXcQ'>Pour un petit interlude musical...</a></footer>
+		
+		
+</body>
+<script type="text/javascript">
+	setInterval(function(){alert("Please, use me...")}, 30000);
+</script>
+</html>

@@ -1,0 +1,8 @@
+<- Board Class-----------------------------------------------------------------
+This Class provide 4 public methos:
+doc () : Print this documentation.
+init_board () : clear the board with default value for future usage.
+send_board () : Return the board to the user.
+place_fleet (Flleet $fleet) : Position each ship contains in the class Fleet in
+	the according cell in the board.
+---------------------------------------------------------------------- Mouse ->
